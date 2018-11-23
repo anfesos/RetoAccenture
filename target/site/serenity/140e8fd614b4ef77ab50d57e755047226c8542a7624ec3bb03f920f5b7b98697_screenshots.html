@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="54f97c89cba74e0ee449882fe030e70b7ca10b3a97b9197984ee3fb76e9cd380.html">Add Productos En Ninja Store</a></span>
+                > <span class="truncate-60"><a
+                    href="140e8fd614b4ef77ab50d57e755047226c8542a7624ec3bb03f920f5b7b98697.html">validar adiccion de productos en carrito de compras en NinjaStore </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-11-2018 13:17</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Add Productos En Ninja Store </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Validar que el login en NinjaStore funcione
+como usuario de NinjaStore
+quiero validar que el login de NinjaStore Funcione
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">validar adiccion de productos en carrito de compras en NinjaStore
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_d4bc9ae1bb7127b9e579a02a85018d22150c68891509b8e6abac6230a3f1d8f2.png" title="Given que el usuario ingreso al sitio web de NinjaStore con credenciales" width="960"/>
+                <img src="scaled_8f432161e7e38766381a3e1d96c44a51582f871026e05d919cccfb5d7d67a2ca.png" title="Abrir pagina" width="960"/>
+                <img src="8f432161e7e38766381a3e1d96c44a51582f871026e05d919cccfb5d7d67a2ca.png" title="Abre ventana login" width="960"/>
+                <img src="scaled_6b23554fed64e2ba95c17f20fed616d18323636802a18ec08ec1476796a253b2.png" title="Abre ventana login" width="960"/>
+                <img src="6b23554fed64e2ba95c17f20fed616d18323636802a18ec08ec1476796a253b2.png" title="Ingresa usuario: andres.sossa@accenture.com" width="960"/>
+                <img src="scaled_8437ed4a124b01c64d20eac686da98150330f9401ff64681eed84f640db2ce69.png" title="Ingresa usuario: andres.sossa@accenture.com" width="960"/>
+                <img src="8437ed4a124b01c64d20eac686da98150330f9401ff64681eed84f640db2ce69.png" title="Ingresa clave: Conjuro01" width="960"/>
+                <img src="scaled_317d08ad56e251884d473861c25e183687ef8a128681a1f22a191f364e076787.png" title="Ingresa clave: Conjuro01" width="960"/>
+                <img src="317d08ad56e251884d473861c25e183687ef8a128681a1f22a191f364e076787.png" title="Ingresa" width="960"/>
+                <img src="d4bc9ae1bb7127b9e579a02a85018d22150c68891509b8e6abac6230a3f1d8f2.png" title="Ingresa" width="960"/>
+                <img src="scaled_87b311ca8b0506ce183fef95a9344b6422d659ebb42150ec5680ff688ba88244.png" title="When el usuario registra compra de productos" width="960"/>
+                <img src="scaled_9a2883dd269e683166351726da1139cdbd64d75d7b993fd8fd828b65974b1e1a.png" title="Selecciona todos los componentes" width="960"/>
+                <img src="9a2883dd269e683166351726da1139cdbd64d75d7b993fd8fd828b65974b1e1a.png" title="Selecciona tipo producto: Cameras, NA" width="960"/>
+                <img src="scaled_2e90923cdfde99d2f6173fa980719cbcdfc2b0e0f8b15ff90c079bcc842e149c.png" title="Selecciona tipo producto: Cameras, NA" width="960"/>
+                <img src="2e90923cdfde99d2f6173fa980719cbcdfc2b0e0f8b15ff90c079bcc842e149c.png" title="Anade producto a carrito: Canon EOS 5D, Red, 10" width="960"/>
+                <img src="scaled_bb005fea6ad0cfebb6e7e030c08f50fc8fc9ad1d9f8dbe8746d02933b1c308d5.png" title="Anade producto a carrito: Canon EOS 5D, Red, 10" width="960"/>
+                <img src="scaled_0a899f3cebbc01d7f9d4aaae122b697546de695b6f418f30edf1e068edcbbf1e.png" title="Selecciona todos los componentes" width="960"/>
+                <img src="scaled_06657ad7802455e5e3af4fe63e508517b601273bc24b5cbf9282e5b446d78c72.png" title="Selecciona todos los componentes" width="960"/>
+                <img src="06657ad7802455e5e3af4fe63e508517b601273bc24b5cbf9282e5b446d78c72.png" title="Selecciona tipo producto: Cameras, NA" width="960"/>
+                <img src="scaled_1a0a84a925bdd6891d81e229e8d4f696bd3ebe124e6ab46966b2891912517b15.png" title="Selecciona tipo producto: Cameras, NA" width="960"/>
+                <img src="1a0a84a925bdd6891d81e229e8d4f696bd3ebe124e6ab46966b2891912517b15.png" title="Anade producto a carrito: Canon EOS 5D, Blue, 12" width="960"/>
+                <img src="scaled_428a3cfc814e105127811b5717eef51f232f2b78ab3b041d53b3b48957a9cc26.png" title="Anade producto a carrito: Canon EOS 5D, Blue, 12" width="960"/>
+                <img src="scaled_d26ee2e7ea46512444f456e8b99da71ba18bed3a2d6a293d285fd66771957e27.png" title="Selecciona todos los componentes" width="960"/>
+                <img src="scaled_d51f3c4f14057f14b178e7e48cdc56059ec001cd63894d732dc38ba2593282e6.png" title="Selecciona todos los componentes" width="960"/>
+                <img src="d51f3c4f14057f14b178e7e48cdc56059ec001cd63894d732dc38ba2593282e6.png" title="Selecciona tipo producto: Cameras, NA" width="960"/>
+                <img src="scaled_d328e72f424155df78c0e706a20c30914fe6c4cece9b33364ba3b46dbc8f44c8.png" title="Selecciona tipo producto: Cameras, NA" width="960"/>
+                <img src="d328e72f424155df78c0e706a20c30914fe6c4cece9b33364ba3b46dbc8f44c8.png" title="Anade producto a carrito: Nikon D300, NA, 3" width="960"/>
+                <img src="scaled_021d8045d4996b6360159cb5f90c3f0f54dce5fb21a7b384f443979c76576d41.png" title="Anade producto a carrito: Nikon D300, NA, 3" width="960"/>
+                <img src="scaled_74e9d612199fef196a806406766e5a2c1e9dd101eec65c6d526ab1236d7e6b70.png" title="Selecciona todos los componentes" width="960"/>
+                <img src="scaled_ccb1b68b0c93417c940e007b90bdeec70489798699edbad585270e51566d9f09.png" title="Selecciona todos los componentes" width="960"/>
+                <img src="ccb1b68b0c93417c940e007b90bdeec70489798699edbad585270e51566d9f09.png" title="Selecciona tipo producto: Desktops, Mac" width="960"/>
+                <img src="scaled_f5a830143ec4bb207fe1307ebee164bf41dc9bcf266f5b0aa94db12dcad4d020.png" title="Selecciona tipo producto: Desktops, Mac" width="960"/>
+                <img src="f5a830143ec4bb207fe1307ebee164bf41dc9bcf266f5b0aa94db12dcad4d020.png" title="Anade producto a carrito: iMac, NA, 15" width="960"/>
+                <img src="scaled_2cd6fca1b6777087999eadd4329e9649f4ae0e91f154f6684ed416599382ade4.png" title="Anade producto a carrito: iMac, NA, 15" width="960"/>
+                <img src="scaled_10748492c3ad5923dc355cd6261ca66444780e281f670d6c39c950870f8dc5a8.png" title="Selecciona todos los componentes" width="960"/>
+                <img src="scaled_d918ff43c4fac8bfbd44a4ba96b5beea34be1baff3df079ebdf2b0434f0ac50b.png" title="Selecciona todos los componentes" width="960"/>
+                <img src="d918ff43c4fac8bfbd44a4ba96b5beea34be1baff3df079ebdf2b0434f0ac50b.png" title="Selecciona tipo producto: Components, Monitors" width="960"/>
+                <img src="scaled_cb665d98443d671faa86bb5cea26d22bbc7a6e263ac6e198a0fe6654315db342.png" title="Selecciona tipo producto: Components, Monitors" width="960"/>
+                <img src="cb665d98443d671faa86bb5cea26d22bbc7a6e263ac6e198a0fe6654315db342.png" title="Anade producto a carrito: Samsung SyncMaster 941BW, NA, 5" width="960"/>
+                <img src="scaled_44dc7914ba65583eccef26cc8a68a65d7759ff320180c42a6a1716f2cc4b4c5a.png" title="Anade producto a carrito: Samsung SyncMaster 941BW, NA, 5" width="960"/>
+                <img src="scaled_bf3dce77720eb25811b9f07601441fe084837fc52d9723bc66b13c21e3f22e39.png" title="Then el deberia de ver la cantidad de productos seleccionados" width="960"/>
+                <img src="bf3dce77720eb25811b9f07601441fe084837fc52d9723bc66b13c21e3f22e39.png" title="Valida cantidad productos: Canon EOS 5D, 10" width="960"/>
+                <img src="bf3dce77720eb25811b9f07601441fe084837fc52d9723bc66b13c21e3f22e39.png" title="Valida cantidad productos: Canon EOS 5D, 10" width="960"/>
+                <img src="scaled_6ca43708f71156d0ae56ce398ee2307cdf09b55d174e1f6020494d8e645a0833.png" title="Valida cantidad productos: Canon EOS 5D, 10" width="960"/>
+                <img src="6ca43708f71156d0ae56ce398ee2307cdf09b55d174e1f6020494d8e645a0833.png" title="Valida cantidad productos: Canon EOS 5D, 10" width="960"/>
+                <img src="bf3dce77720eb25811b9f07601441fe084837fc52d9723bc66b13c21e3f22e39.png" title="Valida cantidad productos: Canon EOS 5D, 10" width="960"/>
+                <img src="bf3dce77720eb25811b9f07601441fe084837fc52d9723bc66b13c21e3f22e39.png" title="Valida cantidad productos: Canon EOS 5D, 10" width="960"/>
+                <img src="6ca43708f71156d0ae56ce398ee2307cdf09b55d174e1f6020494d8e645a0833.png" title="Valida cantidad productos: Canon EOS 5D, 10" width="960"/>
+                <img src="6ca43708f71156d0ae56ce398ee2307cdf09b55d174e1f6020494d8e645a0833.png" title="Valida cantidad productos: Canon EOS 5D, 10" width="960"/>
+                <img src="bf3dce77720eb25811b9f07601441fe084837fc52d9723bc66b13c21e3f22e39.png" title="Valida cantidad productos: Canon EOS 5D, 10: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

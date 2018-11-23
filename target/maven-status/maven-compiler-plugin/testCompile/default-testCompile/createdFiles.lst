@@ -1,0 +1,5 @@
+com\accenture\ejemploSerenityCucumber\DefinitionTestSuite.class
+com\accenture\ejemploSerenityCucumber\utilities\Excel.class
+com\accenture\ejemploSerenityCucumber\steps\DefinitionSteps.class
+com\accenture\ejemploSerenityCucumber\steps\serenity\EndUserSteps.class
+com\accenture\ejemploSerenityCucumber\pages\DictionaryPage.class
