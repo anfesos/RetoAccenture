@@ -68,10 +68,9 @@ public class DefinitionSteps {
 		String referencia;
 		int cantidad;
 		
-		referencia = libro.get(i).get(2);
-		cantidad = (int)Double.parseDouble(libro.get(i).get(4));
-		
 		while (i < libro.size()) {
+			referencia = libro.get(i).get(2);
+			cantidad = (int)Double.parseDouble(libro.get(i).get(4));
 			assertTrue(anna.validaCantidadProductos(referencia, cantidad));
 			i++;
 		}

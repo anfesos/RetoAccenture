@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.accenture.ejemploSerenityCucumber.DefinitionTestSuite" time="122.702" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.accenture.ejemploSerenityCucumber.DefinitionTestSuite" time="48.836" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\andres.sossa\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4745528216153756225.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\andres.sossa\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5275786727806177007.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_191/jre/bin/server;C:/Program Files/Java/jdk1.8.0_191/jre/bin;C:/Program Files/Java/jdk1.8.0_191/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\apache-maven-3.5.4\bin;C:\gradle-4.10.2\bin;C:\Users\andres.sossa\AppData\Local\Microsoft\WindowsApps;C:\Users\andres.sossa\AppData\Local\Programs\Git\cmd;C:\Users\andres.sossa\Desktop;;c:\Program Files (x86)\HP\Unified Functional Testing\\bin64;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,5 +60,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="validar adiccion de productos en carrito de compras en NinjaStore" classname="Add productos en NinjaStore" time="119.391"/>
+  <testcase name="validar adiccion de productos en carrito de compras en NinjaStore" classname="Add productos en NinjaStore" time="45.709"/>
 </testsuite>
